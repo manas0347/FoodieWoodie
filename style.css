@@ -1,0 +1,96 @@
+.navbar{
+    background-color: tomato !important;
+}
+
+.nav-link{
+    color: white !important;
+    font-weight: bold !important;
+}
+.navbar a:hover{
+    color: rgb(0, 0, 0) !important;
+}
+.fa-shopping-cart , .fa-user{
+    font-size: 1.5em !important;
+}
+
+.fa-shipping-fast , .fa-headset , .fa-cc-visa{
+    font-size: 3em !important;
+    margin-right: 10px;
+    color: tomato;
+}
+
+.card1 , .card2 , .card3 {
+    display: flex;
+    width: 300px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: gray 10px 5px 10px;
+    margin-top: 10px;
+    background-color: whitesmoke;
+}
+
+.Service {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 650px) {
+    .card1 , .card2 , .card3 {
+        width: 100%;
+    }
+}
+
+.newArrivals{
+    margin-top: 50px;
+}
+.Heading{
+    text-align: center;
+    font-weight: bold;
+    color: tomato;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: gray 2px 2px 3px;
+    margin: 20px;
+}
+.card{
+    width: 250px;
+    height: auto;
+    margin-bottom: 10px;
+    }
+
+}
+
+.btn-primary{
+    width: 100%;
+    background-color: tomato;
+}
+
+.footer{
+    width: 100%;
+    background-color: tomato;
+    height: 80px;
+}
+
+.footer > div {
+    text-align: center;
+    
+    padding-top: 25px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .row , .card {
+        width: 100%;
+        justify-content: center !important;
+    }
+}
+
+.aone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
